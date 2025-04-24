@@ -229,7 +229,7 @@
    1. 接收数据：A组件想接收数据，则在A组件中给$bus绑定自定义事件，事件的<span style="color:red">回调留在A组件自身。</span>
 
       ```js
-      methods(){
+      methods:{
         demo(data){......}
       }
       ......
@@ -256,7 +256,7 @@
    3. 接收数据：A组件想接收数据，则在A组件中订阅消息，订阅的<span style="color:red">回调留在A组件自身。</span>
 
       ```js
-      methods(){
+      methods:{
         demo(data){......}
       }
       ......

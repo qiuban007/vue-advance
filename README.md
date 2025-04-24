@@ -236,6 +236,10 @@
       mounted() {
         this.$bus.$on('xxxx',this.demo)
       }
+      //或者不写函数，采用下面方式
+      // this.$bus.$on('hello', (data) => {
+      //   console.log(`我是School组件,我收到了数据,${data}`);      
+      // })
       ```
 
    2. 提供数据：```this.$bus.$emit('xxxx',数据)```

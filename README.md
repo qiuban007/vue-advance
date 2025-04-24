@@ -230,7 +230,9 @@
 
       ```js
       methods(){
-        demo(data){......}
+        demo(data){
+		this.$bus.$emit('xxxx', 数据)
+      	}
       }
       ......
       mounted() {

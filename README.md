@@ -392,7 +392,7 @@ module.exports = {
       ```
 
    2. 具名插槽：
-
+	注意：v-slot:footer是能写在template标签上，其他标签需要使用slot="footer"名称指定方式
       ```vue
       父组件中：
               <Category>

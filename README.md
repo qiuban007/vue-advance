@@ -988,6 +988,11 @@ module.exports = {
        <router-view></router-view>
    </keep-alive>
    ```
+   ```vue
+   <keep-alive :include="['News','Message']"> 
+       <router-view></router-view>
+   </keep-alive>
+   ```
 
 ### 11.两个新的生命周期钩子
 
